@@ -1,0 +1,19 @@
+{
+  "name": "ninja-lumi",
+  "version": "0.0.1",
+  "description": "Ninja Blocks Lumi Leds (Mac, Linux)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisns/ninja-lumileds"
+  },
+  "dependencies": {
+    "evilscan": "git://github.com/eviltik/evilscan.git",
+    "parse-color": "git://github.com/substack/parse-color.git"
+  },
+  "author": "Chris Nesbitt-Smith",
+  "license": "MIT"
+}
