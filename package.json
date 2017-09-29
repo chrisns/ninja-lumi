@@ -4,7 +4,9 @@
   "description": "Ninja Blocks Lumi Leds (Mac, Linux)",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -12,8 +14,10 @@
   },
   "dependencies": {
     "evilscan": "git://github.com/eviltik/evilscan.git",
-    "parse-color": "git://github.com/substack/parse-color.git"
+    "parse-color": "git://github.com/substack/parse-color.git",
+    "snyk": "^1.41.1"
   },
   "author": "Chris Nesbitt-Smith",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
