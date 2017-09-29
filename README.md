@@ -1,6 +1,8 @@
 Ninja Lumi led Driver
 ===
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chrisns/ninja-lumi.svg)](https://greenkeeper.io/)
+
 ![image of controller](http://www.lumimoto.com/E_art1722_Memo2_1.jpg)
 ![image of controller](http://www.lumimoto.com/E_art1722_Memo2_2.jpg)
 
