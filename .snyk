@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - evilscan > findup-sync > glob > minimatch:
+        patched: '2017-09-29T13:59:46.062Z'
+    - evilscan > geoip-lite > glob > minimatch:
+        patched: '2017-09-29T13:59:46.062Z'
